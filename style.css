@@ -4,34 +4,20 @@ body{
 }
 
 
-.debut{
+.sec{
     background-color: #008374d8;
-    color: #fff;
+
 }
 
-.contact{
-    display: flex;
-    justify-content: center;
-    margin-left: 15px;
-    font-size: 18px;
-    margin-top: 20px;
+/* .contact{
+    margin-top: 15px
+} */
 
-} 
-.icon-social{
-    font-size:18px ;
-} 
 .cc-navbar{
     border-top: 1px solid #008374d8;
     background-color: #008374d8;
 
 }
-/* .content{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-
-} */
-/* .adresse{
-    display: flex;
-   
-} */
+.active:hover{
+    color: #008374d8;
+}
