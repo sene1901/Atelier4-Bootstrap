@@ -21,3 +21,33 @@ body{
 .active:hover{
     color: #008374d8;
 }
+
+.image1{
+    height: 65vh;
+    width: 85vh;
+}
+.bord{
+    height: 5px;
+    width: 60px;
+    background-color: rgb(102, 141, 80);
+    border-top: 1 px solid  rgb(102, 141, 80);
+    border-radius: 5px;
+    margin: auto;
+}
+.icon{
+    color:rgb(0, 131, 116);
+    font-size: 24px;
+}.logo{
+    height: 70px;
+    width:90px ;
+}
+
+
+@media screen and (max-width: 1024px){
+    /* Image container */
+
+    .image-cont1{
+        flex-wrap: wrap;
+    }
+
+}
